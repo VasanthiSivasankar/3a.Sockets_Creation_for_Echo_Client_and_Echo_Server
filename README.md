@@ -29,7 +29,8 @@ c,addr=s.accept()
 
 while True: 
     ClientMessage=  c.recv(1024).decode() 
-    c.send(ClientMessage.encode()) 
+    c.send(ClientMessage.encode())
+````
 ## OUPUT
 ![image](https://github.com/VasanthiSivasankar/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/assets/161431945/ff75d7e0-1a80-4038-97e5-85ddfed4e745)
 
